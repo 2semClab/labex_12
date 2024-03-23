@@ -35,5 +35,5 @@ for(int i =0; i<n; i++){
 		}
 	}
 }
-printf("Largest elememt of the given array : %d\n", smallest);
+printf("Smallest elememt of the given array : %d\n", smallest);
 }
