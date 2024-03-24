@@ -23,19 +23,15 @@ dispArr(n,c);
 return 0;
 }
 void readArr(int a[], int n){
-for(int i =0; i<n; i++){
+for(int i =0; i<n; i++)
 	scanf("%d",&a[i]);
-	}
 }
 void dispArr(int n, int a[]){
-for(int i =0; i<n; i++){
+for(int i =0; i<n; i++)
 	printf(" %d",a[i]);
-	}
-	printf("\n");
+printf("\n");
 }
 void mulArr(int a[], int b[], int c[],int n) {
-   for (int i = 0; i < n; i++) {
-       c[i] = a[i] * b[i];
-   }
-
+for (int i = 0; i < n; i++)
+   c[i] = a[i] * b[i];
 }
