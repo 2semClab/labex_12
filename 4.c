@@ -7,9 +7,8 @@ printf("Enter the size of the array : ");
 scanf("%d",&n);
 int a[n];
 printf("Enter the elements : ");
-for(int i =0; i<n; i++){
+for(int i =0; i<n; i++)
 	scanf("%d",&a[i]);
-	}
 primeSum(n,a);
 return 0;
 }
@@ -21,17 +20,13 @@ int flag = 0;
 			break;
 		}
 	}
-if (flag == 1){
+if (flag == 1)
 	return 0;
 }
-}
-
 void primeSum(int n , int a[]){
 int sum =0;
-for(int i =0 ; i<n;i++){
-	if( isPrime(a[i])){
+for(int i =0 ; i<n;i++)
+	if( isPrime(a[i]))
 		sum += a[i];
-	}
-}
 printf("Sum of the prime numbers present in the given array : %d\n",sum);
 }	
