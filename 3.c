@@ -16,24 +16,22 @@ return 0;
 }
 void findLargest(int n, int a[]){
 int largest=a[0];
-for(int i =0; i<n; i++){
-	for(int i = 0; i<n;i++){
-		if(largest<a[i]){
+for(int i =0; i<n; i++)
+	for(int i = 0; i<n;i++)
+		if(largest<a[i])
 			largest = a[i];
-		}
-	}
-}
+		
+	
+
 printf("Largest elememt of the given array : %d\n", largest);
 }
 
 void findSmallest(int n, int a[]){
 int smallest=a[0];
-for(int i =0; i<n; i++){
-	for(int i = 0; i<n;i++){
-		if(smallest > a[i]){
+for(int i =0; i<n; i++)
+	for(int i = 0; i<n;i++)
+		if(smallest > a[i])
 			smallest = a[i];
-		}
-	}
-}
+
 printf("Smallest elememt of the given array : %d\n", smallest);
 }
